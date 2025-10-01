@@ -272,7 +272,8 @@ class DashboardPage extends StatelessWidget {
               children: [
                 Hero(tag: 'app-logo', child: FlutterLogo(size: 54)),
                 const SizedBox(width: 12),
-                Text('Halo, $username', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                // Changed here: show "Halo, Rikza" instead of "Halo, Nabil"
+                Text('Halo, Rikza', style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
               ],
             ),
             const SizedBox(height: 14),
